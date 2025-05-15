@@ -1,0 +1,16 @@
+{
+  "world": {
+    "name": "QuantumShadows",
+    "version": "0.1.0",
+    "systems": [
+      "observe_position",
+      "update_probabilities",
+      "trigger_collapse"
+    ],
+    "components": [
+      "Agent",
+      "QuantumState",
+      "IntelData"
+    ]
+  }
+}

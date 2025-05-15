@@ -1,0 +1,10 @@
+[package]
+name = "quantum_shadows"
+version = "0.1.0"
+edition = "2023_11"
+
+[dependencies]
+dojo = "0.3.6"
+
+[[target.dojo]]
+world = "src/world.cairo"
